@@ -43,11 +43,12 @@ li{
     position: relative;
     height: 530px;
     padding-bottom: 15px;
+    clear: both;
 }
 
 #message{
     position: relative;
-    font-family: Courier;
+    font-family: Courier, serif;
     top: 140px;
     left: 330px;
 }
@@ -75,6 +76,24 @@ li{
 #email form{
     float: right;
     margin-top: 15px;
+}
+
+#boxes{
+    text-align: center;
+    padding: 25px;
+    background: bisque;
+}
+
+.box1{
+    width: 50%;
+}
+
+.box2{
+    width: 50%;
+}
+
+.clearFix{
+    clear: both;
 }
 
 .displayInline{
