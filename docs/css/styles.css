@@ -21,22 +21,38 @@ a{
     height: 130px;
     line-height: 130px;
     background-color: bisque;
-
+    padding-left: 30px;
 }
 
 #leftHeader{
     width: 300px;
-    padding-left: 15px;
+}
+
+#leftHeader h1{
+    font-size: 36px;
 }
 
 #nav{
     text-align: right;
-    width: 770px;
-    padding-right: 15px;
+    width: 740px;
 }
+
 
 #nav li{
     padding: 7px;
+    font-size: 20px;
+}
+
+#nav a:hover{
+    color: hotpink;
+}
+
+#nav a{
+    color: black;
+}
+
+#nav a:visited{
+    color: black;
 }
 
 #main{
@@ -136,6 +152,18 @@ a{
     font-size: 25px;
     margin-right: 45px;
     border-radius: 2px ;
+}
+
+#menu a:hover{
+    color: hotpink;
+}
+
+#menu a{
+    color: black;
+}
+
+#menu a:visited{
+    color: black;
 }
 
 #contentWrapper{
