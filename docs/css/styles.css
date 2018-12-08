@@ -162,9 +162,13 @@ a{
 
 #contentRight{
     width: 35%;
-    padding-left: 120px;
-    padding-top: 30px;
+    padding-left: 90px;
+    padding-top: 50px;
     background-color: bisque;
+}
+
+#contentRight img{
+    border-radius: 50%;
 }
 
 
