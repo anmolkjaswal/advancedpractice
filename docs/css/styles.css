@@ -111,6 +111,22 @@ a{
     width: 50%;
 }
 
+.box2 h2{
+    padding-bottom: 20px;
+}
+
+h2 a{
+    color: black;
+}
+
+h2 a:hover{
+    color: hotpink;
+}
+
+.box2 img{
+    border-radius: 50%;
+}
+
 .clearFix{
     clear: both;
 }
