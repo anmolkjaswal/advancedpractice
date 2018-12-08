@@ -36,6 +36,16 @@ body{
     font-size: 36px;
 }
 
+#leftHeader a:hover{
+    color: hotpink;
+}
+
+#leftHeader a{
+    color: #000;
+    -webkit-transition: color 1s ease-in;
+}
+
+
 #nav{
     text-align: right;
     width: 740px;
@@ -94,8 +104,7 @@ body{
 }
 
 #email{
-    padding: 15px;
-    background: bisque;
+    padding: 40px 25px 40px 25px;
     height: 50px;
 }
 
@@ -106,6 +115,7 @@ body{
 #email form{
     float: right;
     margin-top: 15px;
+    margin-right: 15px
 }
 
 #boxes{
@@ -215,7 +225,6 @@ h2 a:hover{
     width: 35%;
     padding-left: 90px;
     padding-top: 50px;
-    background-color: bisque;
 }
 
 #contentRight img{
