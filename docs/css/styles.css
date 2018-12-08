@@ -8,6 +8,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    background-color: bisque;
+}
+
 
 /* Home Page */
 
@@ -51,8 +55,15 @@ a{
     color: black;
 }
 
-#nav a:visited{
-    color: black;
+#nav li {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translate(-100px);
+    background: linear-gradient(132deg, hotpink, bisque);
+    background-size: 100% 100%;
+    animation: BackgroundGradient 30s ease infinite;
+    border-radius: 50%;
 }
 
 #main{
@@ -116,7 +127,7 @@ a{
 }
 
 h2 a{
-    color: black;
+    color: #000;
 }
 
 h2 a:hover{
@@ -166,8 +177,8 @@ h2 a:hover{
 
 #menu li{
     font-size: 25px;
-    margin-right: 45px;
-    border-radius: 2px ;
+    margin-right: 40px;
+    padding: 8px;
 }
 
 #menu a:hover{
@@ -175,10 +186,6 @@ h2 a:hover{
 }
 
 #menu a{
-    color: black;
-}
-
-#menu a:visited{
     color: black;
 }
 
@@ -216,4 +223,21 @@ h2 a:hover{
 }
 
 
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+#menu li{
+    position: relative;
+    left: 0;
+    top: 0;
+    transform:  translate(-100px);
+    background: linear-gradient(132deg, hotpink, bisque);
+    background-size: 100% 100%;
+    animation: BackgroundGradient 30s ease infinite;
+    border-radius: 50%;
+}
 
